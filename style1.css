@@ -1,0 +1,88 @@
+:root {
+    --color-job: brown;
+    --color-background: bisque;
+    --fuente-titulo: 'Times New Roman', serif;
+
+}
+
+.card {
+    display: flex;
+    gap: 15px;
+    width: 32rem;
+    height: 190px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: var(--color-background);
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-info h2 {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+.job {
+    font-size: 1.3rem;
+    color: brown;
+    margin: 0;
+    font: var(--color-job);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
+.dog-photo {
+    display: grid;
+    border-radius: 50%;
+    height: 6rem;
+}
+
+
+
+
+/* Móviles: hasta 600px */
+@media (max-width: 600px) {
+    .card {
+        grid-template-columns: 1fr;
+        width: 50%;
+        height: 20rem;
+        padding: 1rem;
+        border-width: 2px;
+        background-color: var(--color-background);
+
+    }
+
+    .card-photo {
+        display: flex;
+        align-items: start;
+        justify-content: left;
+    }
+
+    .job {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: var(--color-job);
+        margin: 0;
+        text-align: center;
+    }
+
+    .job2 {
+        text-align: center;
+    }
+
+
+    .card-info h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+
+    }
+}
