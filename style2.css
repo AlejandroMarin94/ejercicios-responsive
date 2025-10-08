@@ -9,35 +9,28 @@
     gap: 4.25rem;
     background-color: bisque;
     padding: 1rem;
-    
+
 }
 
 .bar-navegation a {
     text-decoration: none;
     color: black;
-       
-        font-weight: bold;
-        font-size: 1.2rem;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .bar-navegation {
+        display: flex;
+        flex-direction: column;
+        background-color: bisque;
+        align-items: center;
+
+
     }
 
-
-
-@media (max-width: 768px)
-{
-
-.bar-navegation {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    gap: 4.25rem;
-
-    background-color: bisque;
-    padding: 5rem;
-    
 }
-
-}
-
-
-
-
