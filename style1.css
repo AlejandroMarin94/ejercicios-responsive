@@ -14,7 +14,6 @@
     margin: 0 auto;
     background-color: var(--color-background);
 }
-
 .card-info {
     display: flex;
     flex-direction: column;
@@ -23,9 +22,15 @@
 .card-info h2 {
     font-size: 1.5rem;
 }
+.card-photo{
+    display: flex;
+    align-items: start;
+    margin-top: 5px;
+    margin-left: 5px;
 
 
-
+    
+}
 
 
 .job {
@@ -37,10 +42,8 @@
 
 }
 
-
-
 .dog-photo {
-    display: grid;
+    display: flex;
     border-radius: 50%;
     height: 6rem;
 }
